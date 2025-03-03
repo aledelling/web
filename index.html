@@ -1,0 +1,815 @@
+<!-- Version de HTML5 --> 
+<!DOCTYPE html>
+
+<!-- Define una pagina web -->
+<!--Glosario con minimo tres definiciones incluyendo referencias-->
+<!--Mapa de imagenes, incluyendo minimo tres enlaces-->
+<!--Actividad Naturaleza Frágil--> 
+
+<html lang="es" style="margin: 0; padding: 0; box-sizing: border-box; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; scroll-behavior: smooth;">
+<!-- Contenedor de los metadatos de la pagina -->
+<head>
+
+<!-- Son metadatos de la Pagina -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Titulo de la pagina -->
+    <title>Personal Portfolio Website</title>
+</head>
+
+<!-- Contiene la documentacion de la pagina -->
+<body>
+
+<!--Contiene la estructura de navegación de la web -->
+    <header style="top: 0; left: 0; width: 80%; align-items:center; position: fixed; z-index:100; display: flex; justify-content: space-between; background: #0079FF; padding: 20px 10%;">
+
+        <a href="#" style="margin-left: 10px; text-decoration: none; font-size: 28px; color: black;  background-color: #00DFA2; padding: 10px; border-radius: 5px;">Alejandro Díaz</a>
+
+        <nav style="font-size: 22px;">
+            <a href="#map" style="text-decoration: none; color: black; background-color: #00DFA2; padding: 10px; border-radius: 5px;">MAPA</a>
+            <a href="#glosary" style="text-decoration: none; color: black;  background-color: #00DFA2; padding: 10px; border-radius: 5px;">GLOSARIO</a>
+            <a href="#nature" style="text-decoration: none; color: black;  background-color: #00DFA2; padding: 10px; border-radius: 5px;">NATURALEZA</a>
+            <a href="#form" style="text-decoration: none; color: black;  background-color: #00DFA2; padding: 10px; border-radius: 5px;">CONTACTO</a>
+        </nav>
+
+    </header>
+
+<!--Diferentes partes del contenido-->    
+                <!--MAP-->                
+                <section id="map" style="height: 100vh; background-color: #FF0060; width: 100%;">
+                    
+                    <img src="imagen.jpeg" usemap="#image-map" style="height: 100vh; width: 100%;">
+
+                    <map name="image-map">
+                        <area target="_blank" alt="Linux" title="Linux" href="https://www.linux.org/pages/download/" coords="1288,383,1499,539" shape="rect">
+                        <area target="_blank" alt="Alejandro Dev" title="Alejandro Dev" href="https://www.linkedin.com/in/alejandro-diaz-dev/" coords="995,408,174" shape="circle">
+                        <area target="_blank" alt="Book Software" title="Book Software" href="https://shop.elsevier.com/books/subjects/physical-sciences-and-engineering/computer-science/software/software-engineering" coords="191,836,403,787,520,843,372,922" shape="poly">
+                    </map>
+                </section>
+
+                <!--GLOSARY-->
+                <section id="glosary" style="height: 120%; background-color: #F6FA70; padding: 80px 0px; width: 100%;">
+                    <h1 style="background-color: #00DFA2; margin-left: 190px; padding: 10px; font-size: 30px; width: 25%; border-radius: 10px;">Glosario de Desarrollo de Software</h1>
+                    <table style="width: 80%; margin: 20px auto; border-collapse: collapse; background: #fff;">
+                        <thead>
+                            <tr>
+                                <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #007bff; color: white;">Letra</th>
+                                <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #007bff; color: white;">Término</th>
+                                <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #007bff; color: white;">Definición</th>
+                                <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #007bff; color: white;">Referencia</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--Letra A-->
+                            <tr style="background-color: #f9f9f9;">
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">A</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>API (Interfaz de Programación de Aplicaciones)</li>
+                                    <br>
+                                    <li>Algoritmo</li>
+                                    <br>
+                                    <li>Agile (Ágil)</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Conjunto de definiciones y protocolos que permiten la comunicación entre diferentes aplicaciones de software.</blockquote>
+                                    <blockquote>Conjunto de instrucciones o reglas definidas para resolver un problema o realizar una tarea específica.</blockquote>
+                                    <blockquote>Metodología de desarrollo de software que promueve la entrega incremental y la colaboración constante con el cliente.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://www.ibm.com/docs/es/bpm/8.5.6?topic=v856-glossary" target="_blank">API</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.slideshare.net/GeorgeCorona3/glosario-de-ing-de-software-83566899" target="_blank">Algoritmo</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://redwerk.es/blog/vocabulario-de-terminos-de-desarrollo-de-software-para-no-tecnicos-los-60-mas-importantes/" target="_blank">Agile</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA B-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">B</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Backend</li>
+                                    <br>
+                                    <li>Bug (Error)</li>
+                                    <br>
+                                    <li>Base de Datos</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Parte del desarrollo de software que se encarga de la lógica del servidor, bases de datos y la gestión de las solicitudes del cliente.</blockquote>
+                                    <blockquote>Fallo o defecto en un programa de software que produce un resultado no esperado o incorrecto.</blockquote>
+                                    <blockquote>Conjunto organizado de datos almacenados y accesibles electrónicamente.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://redwerk.es/blog/vocabulario-de-terminos-de-desarrollo-de-software-para-no-tecnicos-los-60-mas-importantes/" target="_blank">Backend</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.valido.ai/es/glosario-terminos-pruebas-software/" target="_blank">Bug</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://es.slideshare.net/GeorgeCorona3/glosario-de-ing-de-software-83566899" target="_blank">Base de Datos</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA C-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">C</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Código Fuente</li>
+                                    <br>
+                                    <li>Compilador</li>
+                                    <br>
+                                    <li>Clase</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Conjunto de instrucciones y declaraciones escritas por un programador utilizando un lenguaje de programación.</blockquote>
+                                    <blockquote>Programa que traduce el código fuente escrito en un lenguaje de programación a código máquina ejecutable.</blockquote>
+                                    <blockquote>En programación orientada a objetos, es una plantilla que define atributos y métodos que tendrán los objetos creados a partir de ella.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://es.slideshare.net/GeorgeCorona3/glosario-de-ing-de-software-83566899" target="_blank">Código Fuente</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.alfafar.es/wp-content/uploads/2014/11/Glosario_TIC_Alfafar.pdf" target="_blank">Compilador</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://es.slideshare.net/GeorgeCorona3/glosario-de-ing-de-software-83566899" target="_blank">Clase</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA D-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">D</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Depuración (Debugging)</li>
+                                    <br>
+                                    <li>Despliegue (Deployment)</li>
+                                    <br>
+                                    <li>DevOps</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Proceso de identificar, analizar y corregir errores o bugs en el código de un programa.</blockquote>
+                                    <blockquote>Proceso de poner una aplicación o sistema en un entorno operativo, haciéndolo disponible para los usuarios finales.</blockquote>
+                                    <blockquote>Conjunto de prácticas que combinan el desarrollo de software (Dev) y las operaciones de TI (Ops) para mejorar la colaboración y eficiencia en la entrega de aplicaciones.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://www.valido.ai/es/glosario-terminos-pruebas-software/" target="_blank">Depuración</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://redwerk.es/blog/vocabulario-de-terminos-de-desarrollo-de-software-para-no-tecnicos-los-60-mas-importantes/" target="_blank">Despliegue</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://redwerk.es/blog/vocabulario-de-terminos-de-desarrollo-de-software-para-no-tecnicos-los-60-mas-importantes/" target="_blank">DevOps</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA E-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">E</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Entorno de Desarrollo Integrado IDE</li>
+                                    <br>
+                                    <li>Encapsulamiento</li>
+                                    <br>
+                                    <li>Especificación de Requisitos</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Aplicación que proporciona herramientas completas para el desarrollo de software, incluyendo un editor de código, depurador y compilador.</blockquote>
+                                    <blockquote>Principio de la programación orientada a objetos que consiste en ocultar los detalles internos de un objeto y exponer solo lo necesario.</blockquote>
+                                    <blockquote>Documento que detalla las funcionalidades y restricciones que debe cumplir un sistema o aplicación.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://redwerk.es/blog/vocabulario-de-terminos-de-desarrollo-de-software-para-no-tecnicos-los-60-mas-importantes/" target="_blank">IDE</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://es.slideshare.net/GeorgeCorona3/glosario-de-ing-de-software-83566899" target="_blank">Encapsulamiento</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://es.slideshare.net/GeorgeCorona3/glosario-de-ing-de-software-83566899" target="_blank">Especificación de Requisitos</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA F-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">F</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Framework</li>
+                                    <br>
+                                    <li>Función</li>
+                                    <br>
+                                    <li>Frontend</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Conjunto de herramientas y bibliotecas que proporcionan una estructura estándar para el desarrollo de aplicaciones.</blockquote>
+                                    <blockquote>Bloque de código que realiza una tarea específica y puede ser llamado desde diferentes partes de un programa.</blockquote>
+                                    <blockquote>Parte del desarrollo de software que se encarga de la interfaz de usuario y la experiencia del cliente en una aplicación web o móvil.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://redwerk.es/blog/vocabulario-de-terminos-de-desarrollo-de-software-para-no-tecnicos-los-60-mas-importantes/" target="_blank">Framework</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://es.slideshare.net/GeorgeCorona3/glosario-de-ing-de-software-83566899" target="_blank">Función</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://redwerk.es/blog/vocabulario-de-terminos-de-desarrollo-de-software-para-no-tecnicos-los-60-mas-importantes/" target="_blank">Frontend</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA G-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">G</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Gestión </li>
+                                    <br>
+                                    <li>Git</li>
+                                    <br>
+                                    <li>Gateway</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Proceso de manejar y controlar los cambios en el software, asegurando la integridad y trazabilidad a lo largo del ciclo de vida del proyecto.</blockquote>
+                                    <blockquote>Sistema de control de versiones distribuido que permite a los desarrolladores gestionar y rastrear cambios en el código fuente.</blockquote>
+                                    <blockquote>Dispositivo que actúa como un "puente" entre dos redes diferentes, permitiendo la comunicación entre ellas.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://www.valido.ai/es/glosario-terminos-pruebas-software/" target="_blank">Gestión</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://redwerk.es/blog/vocabulario-de-terminos-de-desarrollo-de-software-para-no-tecnicos-los-60-mas-importantes/" target="_blank">Git</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.alfafar.es/wp-content/uploads/2014/11/Glosario_TIC_Alfafar.pdf" target="_blank">Gateway</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA H-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">H</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>HTML (Lenguaje de Marcado de Hipertexto)</li>
+                                    <br>
+                                    <li>HTTP (Protocolo de Transferencia de Hipertexto)</li>
+                                    <br>
+                                    <li>Hashing</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Lenguaje estándar para crear y diseñar páginas web, estructurando su contenido.</blockquote>
+                                    <blockquote>Protocolo utilizado para la transmisión de datos en la web, definiendo cómo se envían y reciben los datos.</blockquote>
+                                    <blockquote>Técnica criptográfica que transforma datos en un valor único de longitud fija. Se usa para seguridad y almacenamiento de contraseñas.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">HTML</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://developer.mozilla.org/es/docs/Web/HTTP" target="_blank">HTTP</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_hash" target="_blank">Hashing</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA I-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">I</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Inteligencia Artificial (IA)</li>
+                                    <br>
+                                    <li>Iteración</li>
+                                    <br>
+                                    <li>Índice de Base de Datos</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Rama de la informática que desarrolla sistemas capaces de realizar tareas que requieren inteligencia humana.</blockquote>
+                                    <blockquote>Repetición de un conjunto de instrucciones en un algoritmo hasta cumplir una condición.</blockquote>
+                                    <blockquote>Metodología de desarrollo de software que promueve la entrega incremental y la colaboración constante con el cliente.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://chatgpt.com/" target="_blank">AI</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://es.wikipedia.org/wiki/Iteraci%C3%B3n" target="_blank">Iteración</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://redwerk.es/blog/vocabulario-de-terminos-de-desarrollo-de-software-para-no-tecnicos-los-60-mas-importantes/" target="_blank">IBD</a></cite>
+                                </td>
+                            </tr>
+                            
+                            <!--LETRA J-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">J</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Java</li>
+                                    <br>
+                                    <li>JavaScript</li>
+                                    <br>
+                                    <li>JSON</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Lenguaje de programación orientado a objetos ampliamente utilizado en desarrollo web, móvil y empresarial.</blockquote>
+                                    <blockquote>Lenguaje de programación interpretado utilizado para desarrollo web, permitiendo interactividad en las páginas.</blockquote>
+                                    <blockquote>Formato ligero de intercambio de datos basado en texto legible por humanos.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://www.oracle.com/java/" target="_blank">Java</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">JavaScript</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.w3schools.com/js/js_json.asp" target="_blank">JSON</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA K-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">K</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Kotlin</li>
+                                    <br>
+                                    <li>Kernel</li>
+                                    <br>
+                                    <li>Kubernetes</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Lenguaje de programación moderno utilizado para desarrollo de Android.</blockquote>
+                                    <blockquote>Núcleo del sistema operativo que gestiona hardware y procesos.</blockquote>
+                                    <blockquote>Plataforma de orquestación de contenedores.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://kotlinlang.org/" target="_blank">Kotlin</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.geeknetic.es/Kernel/que-es-y-para-que-sirve target="_blank">Kernel</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://kubernetes.io/" target="_blank">Kubernetes</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA L-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">L</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Lenguaje de Programación</li>
+                                    <br>
+                                    <li>Library (Biblioteca)</li>
+                                    <br>
+                                    <li>Linux</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Conjunto de reglas y símbolos para escribir programas.</blockquote>
+                                    <blockquote>Conjunto de funciones reutilizables para programación.</blockquote>
+                                    <blockquote>Sistema operativo de código abierto basado en Unix.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n" target="_blank">LDP</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://openlibrary.org/" target="_blank">Library</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.linux.org/" target="_blank">Linux</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA M-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">M</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Machine Learning</li>
+                                    <br>
+                                    <li>Metodología Ágil</li>
+                                    <br>
+                                    <li>Microservicios</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Rama de la inteligencia artificial que permite a las computadoras aprender de datos.</blockquote>
+                                    <blockquote>Conjunto de principios para el desarrollo de software flexible y adaptativo.</blockquote>
+                                    <blockquote>Arquitectura de software basada en servicios pequeños e independientes.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">Machine learning</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.zendesk.com.mx/blog/metodologia-agil-que-es/" target="_blank">Metodología</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://microservices.io/" target="_blank">Microservicios</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA N-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">N</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Node.js</li>
+                                    <br>
+                                    <li>NPM (Node Package Manager)</li>
+                                    <br>
+                                    <li>Normalization (Normalización)</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Entorno de ejecución para JavaScript en el servidor.</blockquote>
+                                    <blockquote>Gestor de paquetes para Node.js.</blockquote>
+                                    <blockquote>Proceso de estructuración de bases de datos para reducir redundancia.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://www.ibm.com/docs/es/bpm/8.5.6?topic=v856-glossary" target="_blank">Node.js</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.npmjs.com/" target="_blank">NPM</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_datos" target="_blank">Normalización</a></cite>
+                                </td>
+                            </tr>                            
+
+                            <!--LETRA O-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">O</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>OOP (Object-Oriented Programming)</li>
+                                    <br>
+                                    <li>Open Source</li>
+                                    <br>
+                                    <li>ORM (Object-Relational Mapping)</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Paradigma de programación basado en objetos.</blockquote>
+                                    <blockquote>Software cuyo código fuente es accesible y modificable por la comunidad.</blockquote>
+                                    <blockquote>Técnica que permite manipular bases de datos relacionales con objetos.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos" target="_blank">OPP</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://opensource.org/" target="_blank">Opensource</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://es.wikipedia.org/wiki/Mapeo_objeto-relacional" target="_blank">ORM</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA P-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">P</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Python</li>
+                                    <br>
+                                    <li>PHP</li>
+                                    <br>
+                                    <li>Pipeline</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Lenguaje de programación versátil y de alto nivel.</blockquote>
+                                    <blockquote>Lenguaje de programación para el desarrollo web.</blockquote>
+                                    <blockquote>Secuencia de pasos automatizados en desarrollo y despliegue de software.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://www.python.org/" target="_blank">Python</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.php.net/" target="_blank">PHP</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://dictionary.cambridge.org/dictionary/english/pipeline" target="_blank">Pipeline</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA Q-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">Q</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Query (Consulta)</li>
+                                    <br>
+                                    <li>Quality Assurance (QA)</li>
+                                    <br>
+                                    <li>Queue (Cola)</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Petición de información a una base de datos.</blockquote>
+                                    <blockquote>Proceso de garantizar la calidad del software mediante pruebas y revisiones.</blockquote>
+                                    <blockquote>Estructura de datos donde los elementos se procesan en orden FIFO (First In, First Out).</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://www.ibm.com/docs/es/bpm/8.5.6?topic=v856-glossary" target="_blank">Query</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.slideshare.net/GeorgeCorona3/glosario-de-ing-de-software-83566899" target="_blank">Quality</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://redwerk.es/blog/vocabulario-de-terminos-de-desarrollo-de-software-para-no-tecnicos-los-60-mas-importantes/" target="_blank">Queue</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA R-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">R</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Recursividad</li>
+                                    <br>
+                                    <li>REST (Representational State Transfer)</li>
+                                    <br>
+                                    <li>Ruby</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Técnica en programación donde una función se llama a sí misma para resolver problemas complejos.</blockquote>
+                                    <blockquote>Estilo de arquitectura para el diseño de servicios web.</blockquote>
+                                    <blockquote>Lenguaje de programación dinámico y orientado a objetos.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://es.wikipedia.org/wiki/Recursividad" target="_blank">Recursividad</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://restfulapi.net/" target="_blank">REST</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.ruby-lang.org/es/" target="_blank"><Ruby></Ruby></a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA S-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">S</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>SQL (Structured Query Language)</li>
+                                    <br>
+                                    <li>Scrum</li>
+                                    <br>
+                                    <li>Servidor</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Lenguaje para la gestión y consulta de bases de datos relacionales.</blockquote>
+                                    <blockquote>Marco ágil para la gestión y desarrollo de proyectos.</blockquote>
+                                    <blockquote>Computadora o sistema que proporciona servicios o datos a otros dispositivos.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://www.w3schools.com/sql/" target="_blank">SQL</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.scrum.org/" target="_blank">Scrum</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.ticportal.es/glosario-tic/servidores" target="_blank">Servidor</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA T-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">T</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>TCP (Transmission Control Protocol)</li>
+                                    <br>
+                                    <li>Testing</li>
+                                    <br>
+                                    <li>TypeScript</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Protocolo de comunicación que garantiza la entrega de datos en redes.</blockquote>
+                                    <blockquote>Proceso de prueba y validación de software para garantizar su calidad.</blockquote>
+                                    <blockquote>Lenguaje de programación basado en JavaScript con tipado estático.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol" target="_blank">TCP</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.geeksforgeeks.org/software-testing-basics/" target="_blank">Testing</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA U-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">U</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>UDP (User Datagram Protocol)</li>
+                                    <br>
+                                    <li>Unicode</li>
+                                    <br>
+                                    <li>UI (User Interface)</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Protocolo de comunicación sin conexión usado en redes.</blockquote>
+                                    <blockquote>Estándar de codificación de caracteres para facilitar la interoperabilidad.</blockquote>
+                                    <blockquote>Interfaz de usuario en una aplicación o sistema.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://en.wikipedia.org/wiki/User_Datagram_Protocol" target="_blank">UDP</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="Estándar de codificación de caracteres para facilitar la interoperabilidad." target="_blank">Unicode</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="Interfaz de usuario en una aplicación o sistema." target="_blank">UI</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA V-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">V</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Variable</li>
+                                    <br>
+                                    <li>Version Control (Control de versiones)</li>
+                                    <br>
+                                    <li>Virtual Machine (Máquina Virtual)</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Espacio de memoria reservado para almacenar datos en programación.</blockquote>
+                                    <blockquote>Sistema que gestiona cambios en el código fuente.</blockquote>
+                                    <blockquote>Software que simula una computadora física.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://www.ibm.com/docs/es/bpm/8.5.6?topic=v856-glossary" target="_blank">Variable</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://git-scm.com/" target="_blank">Version Control</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.ibm.com/docs/es/bpm/8.5.6?topic=v856-glossary" target="_blank">Virtual Machine</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA W-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;;">W</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Web Development</li>
+                                    <br>
+                                    <li>Wireframe</li>
+                                    <br>
+                                    <li>WebSocket</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Conjunto de definiciones y protocolos que permiten la comunicación entre diferentes aplicaciones de software.</blockquote>
+                                    <blockquote>Conjunto de instrucciones o reglas definidas para resolver un problema o realizar una tarea específica.</blockquote>
+                                    <blockquote>Metodología de desarrollo de software que promueve la entrega incremental y la colaboración constante con el cliente.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Web Development</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.ibm.com/docs/es/bpm/8.5.6?topic=v856-glossary" target="_blank">Wireframe</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" target="_blank">WebSocket</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA X-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">X</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>XML (Extensible Markup Language)</li>
+                                    <br>
+                                    <li>XPath</li>
+                                    <br>
+                                    <li>XSS (Cross-Site Scripting)</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Conjunto de definiciones y protocolos que permiten la comunicación entre diferentes aplicaciones de software.</blockquote>
+                                    <blockquote>Conjunto de instrucciones o reglas definidas para resolver un problema o realizar una tarea específica.</blockquote>
+                                    <blockquote>Vulnerabilidad de seguridad en aplicaciones web.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://www.w3.org/XML/" target="_blank">XML</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://developer.mozilla.org/en-US/docs/Web/XPath" target="_blank">XPath</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://owasp.org/www-community/attacks/xss/" target="_blank">XSS</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA Y-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">Y</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>YAML (YAML Ain't Markup Language)</li>
+                                    <br>
+                                    <li>YAGNI (You Ain't Gonna Need It)</li>
+                                    <br>
+                                    <li>Yield</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Formato de serialización de datos.</blockquote>
+                                    <blockquote>Principio de desarrollo ágil que evita código innecesario.</blockquote>
+                                    <blockquote>Palabra clave en Python para generar iteradores.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://yaml.org/" target="_blank">YAML</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://martinfowler.com/bliki/Yagni.html" target="_blank">YAGNI</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://www.python.org/dev/peps/pep-0255/" target="_blank">Yield</a></cite>
+                                </td>
+                            </tr>
+
+                            <!--LETRA Z-->
+                            <tr>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: center;">Z</td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <li>Zero-Day Vulnerability</li>
+                                    <br>
+                                    <li>Z-Index</li>
+                                    <br>
+                                    <li>Zip (Compresión de archivos)</li>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <blockquote>Vulnerabilidad en software desconocida para el proveedor y que puede ser explotada.</blockquote>
+                                    <blockquote>Propiedad de CSS que define la superposición de elementos en una página web.</blockquote>
+                                    <blockquote>Formato de compresión que reduce el tamaño de archivos.</blockquote>
+                                </td>
+                                <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">
+                                    <cite><a href="https://www.cisa.gov/news-events/news/zero-day-vulnerabilities" target="_blank">ZD Vulnerability</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/z-index" target="_blank">Z-Index</a></cite>
+                                    <br>
+                                    <br>
+                                    <cite><a href="https://en.wikipedia.org/wiki/ZIP_(file_format)" target="_blank">Zip</a></cite>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </section>
+
+                <!--NATURE-->
+                <section id="nature" style="background-color: #F6FA70;">
+                    <main style="margin: auto; max-width: 1280px; padding: 20px; border-radius: 10px; text-align: left; padding: 80px 0px;">
+        
+                        <section style="margin-top: 50px; font-size: 25px; background-color: #0079FF; padding: 50px; border-radius: 10px; text-align: center;">
+                            <h2 style="margin-left: 420px; text-decoration: none; font-size: 28px; color: black;  background-color: #00DFA2; padding: 10px; border-radius: 5px;width: 28%; text-align: center;">¿Qué es la UICN?</cite></h2>
+                            <p style="font-size: 16px; color: #ffff;">La <strong>Unión Internacional para la Conservación de la Naturaleza</strong> (UICN) es una organización global que trabaja en la conservación del medio ambiente y el uso sostenible de los recursos naturales. Fue fundada en 1948 y reúne a gobiernos, organizaciones no gubernamentales (ONG) y expertos en conservación.</p>
+                            <img src="UICN.jpg" alt="Imagen de la UICN" width="100%" style="border-radius: 10px; max-width: 200PX; margin-left: 0px;">
+                        </section>
+                
+                        <section style="margin-top: 50px; font-size: 25px; background-color: #0079FF; padding: 50px; border-radius: 10px; text-align: c;">
+                            <h2 style="margin-left: 10px; text-decoration: none; font-size: 28px; color: black;  background-color: #00DFA2; padding: 10px; border-radius: 5px;width: 28%; text-align: center;">Objetivos de la UICN</h2>
+                            <ul style="font-size: 16px; color: #ffff; line-height: 1.6;">
+                                <li>Proteger la biodiversidad y los ecosistemas.</li>
+                                <li>Promover el desarrollo sostenible.</li>
+                                <li>Fomentar políticas ambientales efectivas.</li>
+                                <li>Trabajar en la educación ambiental y la conciencia ecológica.</li>
+                            </ul>
+                            <img src="vision-uicn.png" alt="Trabajo de conservación" width="100%" style="border-radius: 10px; max-width: 50%; margin-left: 300px;">
+                        </section>
+                
+                        <section style="margin-top: 50px; font-size: 25px; background-color: #0079FF; padding: 50px; border-radius: 10px;">
+                            <h2 style="margin-left: 10px; text-decoration: none; font-size: 28px; color: black;  background-color: #00DFA2; padding: 10px; border-radius: 5px;width: 40%; text-align: center;">Lista Roja de Especies Amenazadas</h2>
+                            <p style="font-size: 16px; color: #ffff;">La UICN es conocida por su <strong>Lista Roja de Especies Amenazadas</strong>, una de las bases de datos más completas sobre el estado de conservación de especies en el mundo.</p>
+                            <video width="100%" controls style="border-radius: 5px;">
+                                <source src="mongabay-explica-qué-es-la-lista-roja-de-la-uicn.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de videos.
+                            </video>
+                        </section>
+                
+                        <section style="margin-top: 50px; font-size: 25px; background-color: #0079FF; padding: 50px; border-radius: 10px;">
+                            <h2 style="margin-left: 10px; text-decoration: none; font-size: 28px; color: black;  background-color: #00DFA2; padding: 10px; border-radius: 5px;width: 28%; text-align: center;">¿Cómo puedes contribuir?</h2>
+                            <p style="font-size: 16px; color: #ffff;">Cualquier persona puede apoyar la conservación del medio ambiente mediante:</p>
+                            <ul style="font-size: 16px; color: #ffff; line-height: 1.6;">
+                                <li>Reduciendo el uso de plásticos y desechos.</li>
+                                <li>Apoyando iniciativas de reforestación y conservación.</li>
+                                <li>Participando en campañas de sensibilización ambiental.</li>
+                                <li>Informándose sobre especies en peligro y su protección.</li>
+                            </ul>
+                        </section>                
+                    </main>
+                
+
+                 </section>  
+                 
+                 <section id="form" style="background-color: #0079FF; color: white; padding: 20px; text-align: center;">
+                    <h2 style="margin-bottom: 15px; background-color: #00DFA2; padding: 20px; border-radius: 5px; width: 100px; text-align: center; margin-left: 46%;">Contacto</h2>
+                    <form style="max-width: 400px; margin: 0 auto; background: #444; padding: 30px; border-radius: 10px;">
+                        <label for="nombre" style="display: block; text-align: left;">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required 
+                            style="width: 100%; padding: 10px; margin-top: 5px; border: none; border-radius: 5px;">
+        
+                        <label for="email" style="display: block; text-align: left; margin-top: 10px;">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" placeholder="Tu correo" required 
+                            style="width: 100%; padding: 10px; margin-top: 5px; border: none; border-radius: 5px;">
+        
+                        <label for="mensaje" style="display: block; text-align: left; margin-top: 10px;">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required 
+                            style="width: 100%; padding: 10px; margin-top: 5px; border: none; border-radius: 5px; height: 100px;"></textarea>
+        
+                        <button type="submit" style="margin-top: 15px; padding: 10px 20px; background: #0079FF; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                            Enviar
+                        </button>
+                    </form>
+                </section>
+</body>
+<!--Pie de pagina -->
+<footer style="margin-top: 20px; padding: 20px; background-color: #333; color: white; font-size: 14px; text-align: center;">
+    &copy; 2025 - CESDE SISTEMAS NEXA - ALEJANDRO DIAZ
+
+</footer>
+</html>
